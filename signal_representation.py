@@ -4,6 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Function to extract record name from .dat or .hea file
+
 def get_record_name(file_path):
     """Extracts record name without extension"""
     return os.path.splitext(file_path)[0] if file_path.endswith((".dat", ".hea")) else file_path
