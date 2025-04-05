@@ -77,3 +77,4 @@ plt.show()
 
 # Save the model
 model.save(os.path.join(results_dir, "emg_model.h5"))
+
